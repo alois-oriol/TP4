@@ -20,7 +20,7 @@
 
 <body>
     <header>
-        <h1>Document minimal en MMI</h1>
+        <h1>TP Numéro 4</h1>
         <nav>
         </nav>
     </header>        
@@ -41,7 +41,7 @@
     </section>
         
     <footer>
-        <p>Copyright © Mathieu Mangeot</p>
+        <p>Copyright © Aloiïs ORIOL</p>
     </footer>
 </body>
 </html>
