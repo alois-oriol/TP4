@@ -19,5 +19,5 @@
             <button type="submit">Envoyer</button>
         </form>
     </section>
-<?php include('entete.php'); ?>
+<?php include('piedpage.php'); ?>
    
