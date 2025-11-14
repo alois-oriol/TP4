@@ -6,9 +6,8 @@
   <meta name="author" content="Mathieu MANGEOT" />
   <meta name="keywords" content="document html5 mmi" />
   <meta name="description" content="Document minimal html5 en DUT MMI" />
-  <!-- Affichage standard sur périphérique mobile pour site adaptatif -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Données Open Graph -->
+
   <meta property="og:type" content="website" />
   <meta property="og:url" content="http://mmi.univ-smb.fr/~mmang/" />
   <meta property="og:image" content="http://mmi.univ-smb.fr/~mmang/image.png" />
@@ -19,24 +18,30 @@
   <title>Document minimal en MMI</title>
 </head>
 
-
 <body>
     <header>
-        <!-- en-tête -->
-            <h1>Document minimal en MMI</h1>
+        <h1>Document minimal en MMI</h1>
         <nav>
-        <!-- menu principal -->
         </nav>
-     </header>        
+    </header>        
         
-        <!-- partie principale -->
-        <section>
-            <h2>Titre de section</h2>
-         </section>
+    
+    <section>
+        <h2>Connexion</h2>
+
+        <form>
+            <label for="identifiant">Identifiant :</label>
+            <input type="text" id="identifiant" name="identifiant">
+
+            <label for="mdp">Mot de passe :</label>
+            <input type="password" id="mdp" name="mdp">
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
         
-        <footer>
-        <!-- pied de page -->
-            <p>Copyright © Mathieu Mangeot</p>
-        </footer>
+    <footer>
+        <p>Copyright © Mathieu Mangeot</p>
+    </footer>
 </body>
 </html>
