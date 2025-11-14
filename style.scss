@@ -5,31 +5,26 @@ $light-bg: #f4f4f4;
 
 body {
   font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
 }
 
-section {
-  padding: 20px;
+h1, h2 {
+  font-weight: bold;
 }
 
 form {
-  display: flex;
-  flex-direction: column;
-  width: 250px;
+  margin-top: 20px;
 }
 
 label {
-  margin-top: 10px;
+  font-weight: bold;
 }
 
 input {
-  padding: 5px;
-  margin-top: 5px;
+  margin-bottom: 10px;
 }
 
 button {
-  margin-top: 15px;
-  padding: 8px;
   background-color: #3498db;
   color: white;
-  border: none;
 }
