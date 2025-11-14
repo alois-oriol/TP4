@@ -1,4 +1,4 @@
-
+<?php include('entete.php'); ?>
     <header>
         <h1>TP Numéro 4</h1>
         <nav>
@@ -19,5 +19,5 @@
             <button type="submit">Envoyer</button>
         </form>
     </section>
-        
+<?php include('entete.php'); ?>
    
