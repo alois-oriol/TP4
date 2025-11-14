@@ -29,7 +29,7 @@
     <section>
         <h2>Connexion</h2>
 
-        <form>
+        <form action ="connexion.php">>
             <label for="identifiant">Identifiant :</label>
             <input type="text" id="identifiant" name="identifiant">
 
